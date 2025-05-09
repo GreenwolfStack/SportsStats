@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.1.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Greenwolf.SportsStats.Application": {
+      "path": "src/Greenwolf.SportsStats.Application/Greenwolf.SportsStats.Application.abppkg",
+      "folder": "src"
+    },
+    "Greenwolf.SportsStats.Application.Tests": {
+      "path": "test/Greenwolf.SportsStats.Application.Tests/Greenwolf.SportsStats.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Greenwolf.SportsStats.MongoDB": {
+      "path": "src/Greenwolf.SportsStats.MongoDB/Greenwolf.SportsStats.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Greenwolf.SportsStats.MongoDB.Tests": {
+      "path": "test/Greenwolf.SportsStats.MongoDB.Tests/Greenwolf.SportsStats.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Greenwolf.SportsStats.Domain.Shared": {
+      "path": "src/Greenwolf.SportsStats.Domain.Shared/Greenwolf.SportsStats.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Greenwolf.SportsStats.Application.Contracts": {
+      "path": "src/Greenwolf.SportsStats.Application.Contracts/Greenwolf.SportsStats.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Greenwolf.SportsStats.HttpApi": {
+      "path": "src/Greenwolf.SportsStats.HttpApi/Greenwolf.SportsStats.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Greenwolf.SportsStats.HttpApi.Client": {
+      "path": "src/Greenwolf.SportsStats.HttpApi.Client/Greenwolf.SportsStats.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Greenwolf.SportsStats.TestBase": {
+      "path": "test/Greenwolf.SportsStats.TestBase/Greenwolf.SportsStats.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Greenwolf.SportsStats.Domain.Tests": {
+      "path": "test/Greenwolf.SportsStats.Domain.Tests/Greenwolf.SportsStats.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Greenwolf.SportsStats.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Greenwolf.SportsStats.HttpApi.Client.ConsoleTestApp/Greenwolf.SportsStats.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Greenwolf.SportsStats.DbMigrator": {
+      "path": "src/Greenwolf.SportsStats.DbMigrator/Greenwolf.SportsStats.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Greenwolf.SportsStats.HttpApi.Host": {
+      "path": "src/Greenwolf.SportsStats.HttpApi.Host/Greenwolf.SportsStats.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Greenwolf.SportsStats.Domain": {
+      "path": "src/Greenwolf.SportsStats.Domain/Greenwolf.SportsStats.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

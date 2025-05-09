@@ -1,0 +1,49 @@
+{
+  "id": "5853bf71-f462-454c-b2fb-908005ac0a43",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "9.1.2",
+    "AbpStudio": "0.9.26",
+    "TargetDotnetFramework": "net9.0",
+    "AbpCommercial": "9.1.2",
+    "LeptonX": "4.1.2"
+  },
+  "modules": {
+    "Greenwolf.SportsStats": {
+      "path": "Greenwolf.SportsStats.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": [
+        "^/metrics$"
+      ]
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "0.9.22",
+    "tiered": "false",
+    "runInstallLibs": "true",
+    "useLocalReferences": "false",
+    "multiTenancy": "true",
+    "includeTests": "true",
+    "kubernetesConfiguration": "false",
+    "uiFramework": "angular",
+    "mobileFramework": "none",
+    "distributedEventBus": "none",
+    "databaseProvider": "mongodb",
+    "runDbMigrator": "true",
+    "theme": "leptonx-lite",
+    "themeStyle": "",
+    "progressiveWebApp": "true",
+    "runProgressiveWebAppSupport": "true",
+    "publicWebsite": "false",
+    "socialLogin": ""
+  }
+}
